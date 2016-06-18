@@ -74,7 +74,7 @@ public class Click {
 	 *            矩形的高
 	 * @return
 	 */
-	public BufferedImage capturePartScreen(Robot r, int x, int y, int width, int height) {
+	public static BufferedImage capturePartScreen(Robot r, int x, int y, int width, int height) {
 		//r.mouseMove(x, y);
 		BufferedImage fullScreenImage = r.createScreenCapture(new Rectangle(x,y,width, height));
 		//ImageIcon icon = new ImageIcon(fullScreenImage);
